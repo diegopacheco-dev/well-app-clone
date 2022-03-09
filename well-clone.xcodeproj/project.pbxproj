@@ -7,23 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		032D865827D2CE0F00C67EEB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032D865727D2CE0F00C67EEB /* HomeViewController.swift */; };
+		032D865B27D2D44100C67EEB /* CardPointsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032D865A27D2D44100C67EEB /* CardPointsView.xib */; };
+		032D865D27D2D47A00C67EEB /* CardPointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032D865C27D2D47A00C67EEB /* CardPointsView.swift */; };
+		032E387127D2C00500FA534A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032E387027D2C00500FA534A /* Home.storyboard */; };
 		0339A18227CE61840051126C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0339A18127CE61840051126C /* AppDelegate.swift */; };
 		0339A18427CE61840051126C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0339A18327CE61840051126C /* SceneDelegate.swift */; };
-		0339A18627CE61840051126C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0339A18527CE61840051126C /* ViewController.swift */; };
 		0339A18927CE61840051126C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0339A18727CE61840051126C /* Main.storyboard */; };
 		0339A18B27CE61840051126C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0339A18A27CE61840051126C /* Assets.xcassets */; };
 		0339A18E27CE61840051126C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0339A18C27CE61840051126C /* LaunchScreen.storyboard */; };
+		0339A19827CE68C90051126C /* LoginHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0339A19727CE68C90051126C /* LoginHomeViewController.swift */; };
+		0339A19A27CE69AD0051126C /* SignInHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0339A19927CE69AD0051126C /* SignInHelpViewController.swift */; };
+		0339A19C27CE69D30051126C /* ForgotUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0339A19B27CE69D30051126C /* ForgotUsernameViewController.swift */; };
+		0339A19E27CE69E50051126C /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0339A19D27CE69E50051126C /* ForgotPasswordViewController.swift */; };
+		0339A1A027CE6A090051126C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0339A19F27CE6A090051126C /* SignInViewController.swift */; };
+		0339A1A227CE6A290051126C /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0339A1A127CE6A290051126C /* CreateAccountViewController.swift */; };
+		0370F01E27D169F100DBF2B4 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0370F01D27D169F100DBF2B4 /* UIViewExtension.swift */; };
+		0370F02227D174A700DBF2B4 /* SubviewHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0370F02127D174A700DBF2B4 /* SubviewHome.swift */; };
+		0370F02427D175A200DBF2B4 /* SubviewHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0370F02327D175A200DBF2B4 /* SubviewHome.xib */; };
+		03C3A34127D179CC00FFABE4 /* LoginHomeScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C3A34027D179CC00FFABE4 /* LoginHomeScroll.swift */; };
+		03C3A34327D179D900FFABE4 /* LoginHomeScrollBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C3A34227D179D900FFABE4 /* LoginHomeScrollBrain.swift */; };
+		5E1AD65627D8026F00966076 /* SetWeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1AD65527D8026F00966076 /* SetWeightViewController.swift */; };
+		5E1AD65827D80ECA00966076 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1AD65727D80ECA00966076 /* LoadingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		032D865727D2CE0F00C67EEB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		032D865A27D2D44100C67EEB /* CardPointsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardPointsView.xib; sourceTree = "<group>"; };
+		032D865C27D2D47A00C67EEB /* CardPointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPointsView.swift; sourceTree = "<group>"; };
+		032E387027D2C00500FA534A /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		0339A17E27CE61840051126C /* well-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "well-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0339A18127CE61840051126C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0339A18327CE61840051126C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0339A18527CE61840051126C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0339A18827CE61840051126C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0339A18A27CE61840051126C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0339A18D27CE61840051126C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0339A18F27CE61840051126C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0339A19727CE68C90051126C /* LoginHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHomeViewController.swift; sourceTree = "<group>"; };
+		0339A19927CE69AD0051126C /* SignInHelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInHelpViewController.swift; sourceTree = "<group>"; };
+		0339A19B27CE69D30051126C /* ForgotUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotUsernameViewController.swift; sourceTree = "<group>"; };
+		0339A19D27CE69E50051126C /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		0339A19F27CE6A090051126C /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		0339A1A127CE6A290051126C /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		0370F01D27D169F100DBF2B4 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		0370F02127D174A700DBF2B4 /* SubviewHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubviewHome.swift; sourceTree = "<group>"; };
+		0370F02327D175A200DBF2B4 /* SubviewHome.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubviewHome.xib; sourceTree = "<group>"; };
+		03C3A34027D179CC00FFABE4 /* LoginHomeScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHomeScroll.swift; sourceTree = "<group>"; };
+		03C3A34227D179D900FFABE4 /* LoginHomeScrollBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHomeScrollBrain.swift; sourceTree = "<group>"; };
+		5E1AD65527D8026F00966076 /* SetWeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetWeightViewController.swift; sourceTree = "<group>"; };
+		5E1AD65727D80ECA00966076 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +69,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		032D865927D2D40800C67EEB /* components */ = {
+			isa = PBXGroup;
+			children = (
+				032D865A27D2D44100C67EEB /* CardPointsView.xib */,
+				032D865C27D2D47A00C67EEB /* CardPointsView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		032E386A27D2B2F000FA534A /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				03C3A33E27D1798200FFABE4 /* Models */,
+				0339A19627CE62B10051126C /* Views */,
+			);
+			path = LoginModule;
+			sourceTree = "<group>";
+		};
+		032E386B27D2B91700FA534A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				032E386C27D2B98900FA534A /* HomeModule */,
+				032E386A27D2B2F000FA534A /* LoginModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		032E386C27D2B98900FA534A /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				032E386D27D2BF8D00FA534A /* Views */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		032E386D27D2BF8D00FA534A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E1AD65327D8021B00966076 /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		0339A17527CE61840051126C = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +131,76 @@
 		0339A18027CE61840051126C /* well-clone */ = {
 			isa = PBXGroup;
 			children = (
+				032E386B27D2B91700FA534A /* Modules */,
 				0339A18127CE61840051126C /* AppDelegate.swift */,
+				0370F01D27D169F100DBF2B4 /* UIViewExtension.swift */,
 				0339A18327CE61840051126C /* SceneDelegate.swift */,
-				0339A18527CE61840051126C /* ViewController.swift */,
-				0339A18727CE61840051126C /* Main.storyboard */,
+				5E1AD65727D80ECA00966076 /* LoadingViewController.swift */,
 				0339A18A27CE61840051126C /* Assets.xcassets */,
 				0339A18C27CE61840051126C /* LaunchScreen.storyboard */,
 				0339A18F27CE61840051126C /* Info.plist */,
 			);
 			path = "well-clone";
+			sourceTree = "<group>";
+		};
+		0339A19627CE62B10051126C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0339A18727CE61840051126C /* Main.storyboard */,
+				0339A19727CE68C90051126C /* LoginHomeViewController.swift */,
+				036E1DCD27D00F2700155D9F /* LoginHomeCarouselViews */,
+				0339A19927CE69AD0051126C /* SignInHelpViewController.swift */,
+				0339A19B27CE69D30051126C /* ForgotUsernameViewController.swift */,
+				0339A19D27CE69E50051126C /* ForgotPasswordViewController.swift */,
+				0339A19F27CE6A090051126C /* SignInViewController.swift */,
+				0339A1A127CE6A290051126C /* CreateAccountViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		036E1DCD27D00F2700155D9F /* LoginHomeCarouselViews */ = {
+			isa = PBXGroup;
+			children = (
+				0370F02127D174A700DBF2B4 /* SubviewHome.swift */,
+				0370F02327D175A200DBF2B4 /* SubviewHome.xib */,
+			);
+			path = LoginHomeCarouselViews;
+			sourceTree = "<group>";
+		};
+		03C3A33E27D1798200FFABE4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				03C3A33F27D1799E00FFABE4 /* LoginHomeScroll */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		03C3A33F27D1799E00FFABE4 /* LoginHomeScroll */ = {
+			isa = PBXGroup;
+			children = (
+				03C3A34027D179CC00FFABE4 /* LoginHomeScroll.swift */,
+				03C3A34227D179D900FFABE4 /* LoginHomeScrollBrain.swift */,
+			);
+			path = LoginHomeScroll;
+			sourceTree = "<group>";
+		};
+		5E1AD65327D8021B00966076 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5E1AD65427D8023400966076 /* subViews */,
+				032D865727D2CE0F00C67EEB /* HomeViewController.swift */,
+				032E387027D2C00500FA534A /* Home.storyboard */,
+				032D865927D2D40800C67EEB /* components */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5E1AD65427D8023400966076 /* subViews */ = {
+			isa = PBXGroup;
+			children = (
+				5E1AD65527D8026F00966076 /* SetWeightViewController.swift */,
+			);
+			path = subViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +262,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0339A18E27CE61840051126C /* LaunchScreen.storyboard in Resources */,
+				032E387127D2C00500FA534A /* Home.storyboard in Resources */,
 				0339A18B27CE61840051126C /* Assets.xcassets in Resources */,
 				0339A18927CE61840051126C /* Main.storyboard in Resources */,
+				032D865B27D2D44100C67EEB /* CardPointsView.xib in Resources */,
+				0370F02427D175A200DBF2B4 /* SubviewHome.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +277,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0339A18627CE61840051126C /* ViewController.swift in Sources */,
+				5E1AD65627D8026F00966076 /* SetWeightViewController.swift in Sources */,
+				0339A19E27CE69E50051126C /* ForgotPasswordViewController.swift in Sources */,
+				032D865D27D2D47A00C67EEB /* CardPointsView.swift in Sources */,
+				5E1AD65827D80ECA00966076 /* LoadingViewController.swift in Sources */,
+				0370F01E27D169F100DBF2B4 /* UIViewExtension.swift in Sources */,
+				0339A19C27CE69D30051126C /* ForgotUsernameViewController.swift in Sources */,
 				0339A18227CE61840051126C /* AppDelegate.swift in Sources */,
+				0339A1A027CE6A090051126C /* SignInViewController.swift in Sources */,
+				03C3A34127D179CC00FFABE4 /* LoginHomeScroll.swift in Sources */,
+				0339A19A27CE69AD0051126C /* SignInHelpViewController.swift in Sources */,
+				03C3A34327D179D900FFABE4 /* LoginHomeScrollBrain.swift in Sources */,
+				0339A1A227CE6A290051126C /* CreateAccountViewController.swift in Sources */,
 				0339A18427CE61840051126C /* SceneDelegate.swift in Sources */,
+				0370F02227D174A700DBF2B4 /* SubviewHome.swift in Sources */,
+				032D865827D2CE0F00C67EEB /* HomeViewController.swift in Sources */,
+				0339A19827CE68C90051126C /* LoginHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
